@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Aspergit';
+    src: local('Aspergit'), local('Aspergit Regular'), url('http://64424.selcdn.ru/webfont/aspergit/aspergit.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aspergit';
+    src: local('Aspergit Light Regular'), local('Aspergit-Light'), url('http://64424.selcdn.ru/webfont/aspergit/aspergit_light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aspergit';
+    src: local('Aspergit Bold'), local('Aspergit-Bold'), url('http://64424.selcdn.ru/webfont/aspergit/aspergit_bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aspergit';
+    src: local('Aspergit Light Italic'), local('Aspergit-LightItalic'), url('http://64424.selcdn.ru/webfont/aspergit/aspergit_light_italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aspergit';
+    src: local('Aspergit Italic'), local('Aspergit-Italic'), url('http://64424.selcdn.ru/webfont/aspergit/aspergit_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Aspergit';
+    src: local('Aspergit Bold Italic'), local('Aspergit-BoldItalic'), url('http://64424.selcdn.ru/webfont/aspergit/aspergit_bold_italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}

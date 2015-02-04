@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Arian AMU Mono';
+    src: local('Arian AMU Mono Regular'), local('ArianAMUMono'), url('http://64424.selcdn.ru/webfont/arnamumono/arnamu_mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arian AMU Mono';
+    src: local('Arian AMU Mono Bold'), local('ArianAMUMono-Bold'), url('http://64424.selcdn.ru/webfont/arnamumono/arnamu_mono_bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arian AMU Mono';
+    src: local('Arian AMU Mono Italic'), local('ArianAMUMono-Italic'), url('http://64424.selcdn.ru/webfont/arnamumono/arnamu_mono_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Arian AMU Mono';
+    src: local('Arian AMU Mono Bold Italic'), local('ArianAMUMono-BoldItalic'), url('http://64424.selcdn.ru/webfont/arnamumono/arnamu_mono_italic_bold.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
