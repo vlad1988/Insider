@@ -663,6 +663,7 @@ header{
 	left:62%;	
 }
 
+/*footer*/
 #footer{
 	width:100%;
 	background:#1B191A;
@@ -690,7 +691,43 @@ header{
 	width:30%;
 	padding:30px 60px;	
 }
+/*/footer*/
 
+/*gallery*/
 .gallery{	
 	position:relative;
 }
+
+.navig_btn_gal{
+	position:absolute;
+	bottom:12px;
+	color;white;
+}
+
+.navig_btn_gal>li{
+	color:white;
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background:black;
+	border:1px solid white;
+	position:relative;
+}
+
+.navig_btn_gal li ul li{
+	position:absolute;
+	top:2px;
+	left:2px;
+	width:11px;
+	height:11px;
+	background:#DB2C2B;
+	list-style-type:none;
+}
+
+.gallery_btn{
+	position:absolute;
+	bottom:5%;
+	right:2%;	
+}
+
+/*/gallery*/
