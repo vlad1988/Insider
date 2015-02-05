@@ -65,7 +65,7 @@ body{
 	font-size:18px;	
 	font-weight:600;
 	background:#5B4C2E;
-	background-image:url(img/body.png);
+	//background-image:url(img/body.png);
 }
 
 article,
@@ -731,3 +731,7 @@ header{
 }
 
 /*/gallery*/
+
+@media only screen and (max-device-width: 480px){
+		
+}

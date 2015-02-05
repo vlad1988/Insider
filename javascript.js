@@ -17,11 +17,8 @@ function fileclick(){
 window.onload = function(){
 	var date = new Date();
 	var year = date.getFullYear();
-	var month = date.getMonth();
-	if(month.length<2){
-		month = 0 + month;	
-	}
-	var day = date.getDay();
+	var month = date.getMonth()+1;
+	var day = date.getDay()+1;
 	var all_date = year + " - " + month + " - " + day;
 	document.getElementById("date").innerHTML = all_date;
 }
