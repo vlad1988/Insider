@@ -4,107 +4,84 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Theme</title>
 <link rel="stylesheet" type="text/css" href="style.css"/>
-<!--<link rel="stylesheet" type="text/css" href="css/arnamumono.css"/>-->
 <link rel="stylesheet" type="text/css" href="css/aspregit.css"/>
 </head>
 
 <body>
-	<header id="head">This is head</header>
-    <section id="content">
-    	<ul>
-        	<li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-        </ul>
-        <ol>
-        	<li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>10</li>
-        </ol>
-       <table>
-       		<caption>
-                    Index
-                    CSS
-            </caption>
-       		<thead>
-                <tr>
-					<th>MainFile</th>
-                    <th>StyleFile</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Files1</td>
-                    <td>Files2</td>                
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>EndFiles1</td>
-                    <td>EndFiles2</td>                            	
-                </tr>
-            </tfoot>
-        </table>
-        <div id="inputs_button">
-        	<input type="button" value="Button"/>
-            <button>Button 2</button>
-        </div>
-        <div>
-        	<p><input type="checkbox" id="check1"><label for="check1">Check1</label></p>
-            <p><input type="radio" name="yes"><label>1</label></p>
-            <p><input type="radio" name="yes"><label>2</label></p>
-            <p><input type="radio" name="yes"><label>3</label></p>
-            <p><input type="image" src="img/flower.jpg" width="250" height="150"></p>                        
-            <p><input type="search" placeholder="search..."><input type="submit" value="Search"/></p>
-            <p><input type="number"></p>
-            <p><input type="reset" value="Reset"/></p>                        
-                <div class="fileform">
-                    <div id="fileformlabel"></div>
-                    <div class="selectbutton" onClick="fileclick()">Обзор</div>
-                    <input type="file" name="upload" id="upload" onchange="getName(this.value);" />
-                </div>
-            <br/>
-            <h1>h1</h1>
-            <h2>h2</h2>
-            <h3>h3</h3>
-            <h4>h4</h4>
-            <h5>h5</h5>
-            <h6>h6</h6>
-            <strong>Strong</strong>
-            <textarea placeholder="Text..."></textarea>
-            <br/>            
-            <select>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            	<optgroup>
-                	<option>3.1</option>
-                    <option>3.2</option>
-                    <option>3.3</option>
-                </optgroup>
-            </select>
-        </div>
-        <p><a href="#">Link</a></p><br/>
-        <h1><a href="#">Asd</a></h1>
-        <h2><a href="#">Asd</a></h2>
-        <h3><a href="#">Asd</a></h3>
-        <h4><a href="#">Asd</a></h4>
-        <h5><a href="#">Asd</a></h5>
-        <h6><a href="#">Asd</a></h6>        
-    </section>
-    <nav>
-    	<ul>
-        	<li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Four</a></li>
-        </ul>
-    </nav>
-    <footer id="foot">Footer</footer>
+	<div id="_content_width">
+        <header id="head">
+            <div class="logo">
+                <span>INSIDER</span>
+            </div>
+        </header>
+        <header class="nav">
+                <ul>
+                    <li class="inline_nav"><a href="#">Home</a></li>
+                    <li class="inline_nav"><a href="#">Contact</a></li>
+                    <li class="inline_nav"><a href="#">Service</a></li>
+                    <li class="inline_nav"><a href="#">About</a></li>
+                </ul>  
+        </header>
+        <header class="nav2">
+                <ul>
+                    <li class="inline_nav"><a href="#">Home</a></li>
+                    <li class="inline_nav"><a href="#">Contact</a></li>
+                    <li class="inline_nav"><a href="#">Service</a></li>
+                    <li class="inline_nav"><a href="#">About</a></li>
+                </ul>  
+        </header>        
+        <section class="all_info">
+        	<div class="gallery">
+                 <div class="search">
+                    <p><input type="search" placeholder="search..."><input type="submit" class="submitsearch" value="Search"/></p><br/>
+                 </div>            
+            	<img src="img/gallery2.png" style="width:100%;height:350px;" draggable="false"/>
+            </div>    
+            <div class="_main_content">
+                <p>
+                <img src="img/orange_flowers.jpg" width="150" class="left_img" height="100" draggable="false"/>
+                Anyone who reads <a href="#">Old</a> and <a href="#">Middle</a> English literary texts will be familiar with the mid-brown volumes of the EETS, with the symbol of Alfred's jewel embossed on the front cover. Most of the works attributed to King Alfred or to Aelfric, along with some of those by bishop Wulfstan and much anonymous prose and verse from the pre-Conquest period, are to be found within the Society's three series; all of the surviving medieval drama, most of the Middle English romances, much religious and secular prose and verse including the English works of John Gower, Thomas Hoccleve and most of Caxton's prints all find their place in the publications. Without EETS editions, study of medieval English texts would hardly be possible.
+                </p>
+             </div>
+             <div class="_main_content">
+                <p>
+                <img src="img/orange_flowers.jpg" width="150" height="100" class="right_img" draggable="false"/>
+                As its name states, EETS was begun as a 'club', and it retains certain features of that even now. It has no physical location, or even office, no paid staff or editors, but books in the Original Series are published in the first place to satisfy subscriptions paid by individuals or institutions. This means that there is need for a regular sequence of new editions, normally one or two per year; achieving that sequence can pose problems for the Editorial Secretary, who may have too few or too many texts ready for publication at any one time. Details on a separate sheet explain how individual (but not institutional) members can choose to take certain back volumes in place of the newly published volumes against their subscriptions. On the same sheet are given details about the very advantageous discount available to individual members on all back numbers. In 1970 a Supplementary Series was begun, a series which only appears occasionally (it currently has 24 volumes within it); some of these are new editions of texts earlier appearing in the main series. Again these volumes are available at publication and later at a substantial discount to members. All these advantages can only be obtained through the Membership Secretary (the books are sent by post); they are not available through bookshops, and such bookstores as carry EETS books have only a very limited selection of the many published.
+                </p>
+             </div>
+             <div class="_main_content">
+                <p>
+                <img src="img/orange_flowers.jpg" width="150" height="100" class="right_img"/>
+                <img src="img/orange_flowers.jpg" width="150" height="100" class="left_img"/>            
+                Editors, who receive no royalties or expenses and who are only very rarely commissioned by the Society, are encouraged to approach the Editorial Secretary with a detailed proposal of the text they wish to suggest to the Society early in their work; interest may be expressed at that point, but before any text is accepted for publication the final typescript must be approved by the Council (a body of some twenty scholars), and then assigned a place in the printing schedule. The Society now has a stylesheet to guide editors in the layout and conventions acceptable within its series. No prescriptive set of editorial principles is laid down, but it is usually expected that the evidence of all relevant medieval copies of the text(s) in question will have been considered, and that the texts edited will be complete whatever their length. Editions are directed at a scholarly readership rather than a popular one; though they normally provide a glossary and notes, no translation is provided.
+                </p>
+             </div>
+             <div class="_navigation_content">             	
+                <ul class="rsectionl">
+                	<li class="caption_li">Categories</li>
+                	<li><a href="#">new</a></li>
+                	<li><a href="#">old</a></li>                                        
+                    <li><a href="#">future</a></li>
+                </ul>
+             </div>
+        </section>
+        <footer id="footer">
+            <div class="cont_footer">
+            	<ul>
+                	<li>Authors:</li>
+                	<li>...</li>
+                	<li>...</li>                                        
+                </ul>                
+            </div>
+            <div class="cont_footer_inline">
+            	<ul>
+                	<li>Thanks for watching!</li>
+                	<li>----------------</li>
+                	<li id="date">3</li>                                       
+                </ul>
+            </div>
+        </footer>
+    </div>
     <script>
     function getName (str){
     if (str.lastIndexOf('\\')){
@@ -121,6 +98,27 @@
 function fileclick(){
 	document.getElementById("upload").click();
 }
+
+window.onload = function(){
+	var date = new Date();
+	var year = date.getFullYear();
+	var month = date.getMonth();
+	if(month.length<2){
+		month = 0 + month;	
+	}
+	var day = date.getDay();
+	var all_date = year + " - " + month + " - " + day;
+	document.getElementById("date").innerHTML = all_date;
+}
+
+window.addEventListener("scroll",function(){
+	if(window.scrollY > 270 || window.pageYOffset > 270){
+		document.getElementsByClassName("nav2").item(0).style.top = "0px";
+	}
+	if(window.scrollY < 270 || window.pageYOffset < 270){
+		document.getElementsByClassName("nav2").item(0).style.top = "-120px";
+	}	
+},false);
     </script>
 </body>
 
